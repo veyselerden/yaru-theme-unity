@@ -6,7 +6,6 @@ git clone https://github.com/veyselerden/yaru-theme-unity.git
 cd yaru-theme-unity
 sudo mv unity /usr/share/themes/Yaru
 sudo ln -s /usr/share/themes/Yaru/unity /usr/share/themes/Yaru-dark/unity
-sudo ln -s /usr/share/themes/Yaru/unity /usr/share/themes/Yaru-light/unity
 
 echo "Installation has finished. Now open Unity Tweak Tool and choose or re-choose Yaru variation you want."
 

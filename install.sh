@@ -1,14 +1,14 @@
 #! /bin/bash
 
 sudo apt install yaru-theme-gtk yaru-theme-unity git
-sudo cp /usr/share/themes/Yaru /usr/share/themes/Yaru-circle-buttons
-sudo cp /usr/share/themes/Yaru-dark /usr/share/themes/Yaru-circle-buttons-dark
+sudo cp -r/usr/share/themes/Yaru /usr/share/themes/Yaru-circle-buttons
+sudo cp -r /usr/share/themes/Yaru-dark /usr/share/themes/Yaru-circle-buttons-dark
 sudo rm -rf /usr/share/themes/Yaru-circle-buttons/unity
 sudo rm -rf /usr/share/themes/Yaru-circle-buttons-dark/unity
 git clone https://github.com/veyselerden/yaru-theme-unity.git
 cd yaru-theme-unity
-sudo mv unity /usr/share/themes/Yaru-circle-buttons/
-sudo mv unity /usr/share/themes/Yaru-circle-buttons-dark/
+sudo cp -r unity /usr/share/themes/Yaru-circle-buttons/
+sudo cp -r unity /usr/share/themes/Yaru-circle-buttons-dark/
 
 echo "Installation has finished. Now open Unity Tweak Tool and choose or choose Yaru-circle-buttons."
 
